@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>김양욱 | 도의원 권리당원 경선투표 안내</title>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pbs586.github.io/kimyangwook/primary.html">
+  <meta property="og:title" content="김양욱 | 도의원 권리당원 경선투표 안내">
+  <meta property="og:description" content="이재명의 필승카드! 후평동 도의원은 김양욱! 권리당원 경선투표 참여 방법을 안내해드립니다.">
+  <meta property="og:image" content="https://pbs586.github.io/kimyangwook/thumb.jpg">
+
+  <!-- Fonts: Noto Sans KR (Korean) & Outfit (Latin/Numbers for premium feel) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #004EA2;
+      --primary-dark: #003875;
+      --primary-light: #E9F2FF;
+      --accent: #FFB800;
+      --text-main: #1E293B;
+      --text-sub: #475569;
+      --bg-gray: #F8FAFC;
+      --white: #FFFFFF;
+      --radius: 16px;
+      --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    
+    body { 
+      font-family: 'Noto Sans KR', 'Outfit', sans-serif; 
+      background-color: var(--bg-gray); 
+      color: var(--text-main); 
+      line-height: 1.6;
+      word-break: keep-all;
+      overflow-x: hidden;
+    }
+
+    /* Animation */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-up {
+      animation: fadeInUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+
+    /* Container */
+    .app-container {
+      max-width: 500px;
+      margin: 0 auto;
+      background: var(--white);
+      min-height: 100vh;
+      position: relative;
+      box-shadow: 0 0 40px rgba(0,0,0,0.1);
+    }
+
+    /* Hero & Image Sections */
+    .img-section {
+      width: 100%;
+      line-height: 0;
+    }
+
+    .img-section img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Floating Action Buttons */
+    .action-area {
+      padding: 40px 24px 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+      background: var(--white);
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 16px 28px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 17px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: var(--white);
+      box-shadow: 0 8px 16px rgba(0, 78, 162, 0.2);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background: var(--primary-light);
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+    }
+
+    .btn-outline:hover {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    /* Footer */
+    footer {
+      background: #0F172A;
+      padding: 40px 24px;
+      text-align: center;
+    }
+
+    footer .brand {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      opacity: 0.9;
+    }
+
+    footer .refusal {
+      color: #64748B;
+      font-size: 12px;
+    }
+
+    /* Highlight box */
+    .info-tag {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--primary-dark);
+      padding: 4px 16px;
+      border-radius: 20px;
+      font-weight: 800;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="app-container">
+  <!-- Hero Section: 김양욱 대문 -->
+  <section class="img-section animate-up">
+    <img src="김양욱 대문.png" alt="김양욱 도의원 권리당원 경선투표">
+  </section>
+
+  <!-- Content Section: 경선 안내 -->
+  <section class="img-section animate-up" style="animation-delay: 0.2s;">
+    <img src="경선.jpg" alt="경선투표 참여 방법 안내">
+  </section>
+
+  <!-- Action Area -->
+  <div class="action-area animate-up" style="animation-delay: 0.4s;">
+    <span class="info-tag">후평의 아들, 준비된 경제 전문가!</span>
+    
+    <button id="shareBtn" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92c0-1.61-1.31-2.92-2.92-2.92z"/></svg>
+      안내 페이지 링크 복사하기
+    </button>
+
+    <a href="index.html" class="btn btn-outline">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+      김양욱 후보 프로필 보기
+    </a>
+  </div>
+
+  <footer>
+    <div class="brand">더불어민주당 | 김양욱 후평 1,2,3동 강원도의원 예비후보</div>
+    <div class="refusal">무료거부 0808571376 · 인증번호 2490</div>
+  </footer>
+</div>
+
+<script>
+  document.getElementById('shareBtn').addEventListener('click', function() {
+    const url = window.location.href;
+    navigator.clipboard.writeText(url).then(() => {
+      alert('안내 페이지 링크가 복사되었습니다. 동료 당원분들께 공유해주세요!');
+    }).catch(err => {
+      console.error('링크 복사 실패:', err);
+    });
+  });
+</script>
+
+</body>
+</html>
